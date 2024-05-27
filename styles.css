@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    padding: 10px;
+}
+
+.container{
+    width: 35rem;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 20px;
+    display: none;
+    
+}
+
+#heading{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+}
+
+.fa-regular{
+    cursor: pointer;
+}
+
+.fa-regular:hover{
+    font-size: larger;
+}
+
+button{
+    position: fixed;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.show{
+    display: block;
+}
